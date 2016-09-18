@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+h1{
+	font-size: 24px;
+	text-align:center;
+}
+
+.header{
+	width: 680px;
+	padding:10px;
+	margin: auto;
+	background-color:#DBDBDB; 
+}
+
+.container{
+	margin:auto;
+	width:700px;
+}
+
+.image1, .image2{
+	display: inline;
+	margin-top: 10px;
+	width: 345px;
+	position: relative;
+	margin-bottom: 10px;
+	overflow:hidden;
+	font-size:0px;
+}
+
+.image1{
+	float:left;
+	
+}
+.image2{
+	float:right;
+}
+
+.statusInitial{
+	clear:both;
+	margin-bottom:10px;
+	padding:10px;
+	background-color:#DBDBDB;
+	font-size:16px;
+	text-align:center;
+}
+
+.next{
+	margin:auto;
+	padding:10px;
+	text-align:center;
+	font-size:16px;
+}
+
+.disabled{
+	display:none;
+}
+.active{
+	background-color:#4545FF;
+	cursor:pointer;
+	display:block;
+	color:white;
+}
+
+div.active:hover{
+	background-color:#5858FF;
+}
+
+.difference{
+	z-index:1;
+	height:40px;
+	width:40px;
+	position:absolute;
+	/*border:1px solid red;*/
+}
+
+.pic{
+	max-width:100%;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}

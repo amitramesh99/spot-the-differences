@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.picAdd{
+	max-width:100%;
+}
+
+.newDifference{
+	height:40px;
+	width:40px;
+	z-index:1;
+	position:absolute;
+}
+
+.finished{
+	clear:both;
+	margin:auto;
+	padding:10px;
+	text-align:center;
+	font-size:16px;
+	background-color:#4545FF;
+	cursor:pointer;
+	display:block;
+	color:white;
+}
+
+div.finished:hover{
+	background-color:#5858FF;
+}
